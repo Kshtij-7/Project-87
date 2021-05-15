@@ -51,23 +51,23 @@ function mykeypress(e) {
         console.log('down');
     }
     if (keypressed == '70') {
-        addChar('images/harry.png')
+        addChar('harry.png')
         console.log("f");
     }
     if (keypressed == '66') {
-        addChar('images/colin.png')
+        addChar('colin.png')
         console.log("b");
     }
     if (keypressed == '76') {
-        addChar('images/hermonie1.png')
+        addChar('hermonie1.png')
         console.log("l");
     }
     if (keypressed == '82') {
-        addChar('images/ron.png')
+        addChar('ron.png')
         console.log("r");
     }
     if (keypressed == '72') {
-        addChar('images/draco.png')
+        addChar('draco.png')
         console.log("h");
     }
     if (e.shiftKey == true && keypressed == '80') {
