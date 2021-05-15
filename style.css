@@ -1,0 +1,71 @@
+.body_background {
+	background-image: url("images/harrybg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#myCanvas {
+	border-width: 10px;
+	background-color: white;
+	border-style: ridge;
+}
+
+h2 {
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+span {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 10px;
+}
+
+#head_info {
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	margin-bottom: 40px;
+}
+
+button:hover {
+	background-color: #3e8e41
+}
+
+button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+h4 {
+	color:white;
+	text-decoration-color: white;
+	font-family: cursive;
+}
