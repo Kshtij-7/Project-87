@@ -51,23 +51,23 @@ function mykeypress(e) {
         console.log('down');
     }
     if (keypressed == '70') {
-        addChar('harry.png')
+        addChar('images/harry.png')
         console.log("f");
     }
     if (keypressed == '66') {
-        addChar('colin.png')
+        addChar('images/colin.png')
         console.log("b");
     }
     if (keypressed == '76') {
-        addChar('hermonie1.png')
+        addChar('images/hermonie1.png')
         console.log("l");
     }
     if (keypressed == '82') {
-        addChar('ron.png')
+        addChar('images/ron.png')
         console.log("r");
     }
     if (keypressed == '72') {
-        addChar('draco.png')
+        addChar('images/draco.png')
         console.log("h");
     }
     if (e.shiftKey == true && keypressed == '80') {
@@ -89,4 +89,8 @@ function openprew() {
 }
 function opendown() {
     window.open("https://drive.google.com/uc?export=download&id=1TciO3H1re4oEV_xVi1BUM2aacxZ2mV3y", '_blank')
+}
+function playbg() {
+    var audio = new Audio('music.mp3');
+  audio.play();
 }

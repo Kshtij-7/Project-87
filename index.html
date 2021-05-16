@@ -13,10 +13,9 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<body class="body_background">
+<body onload="playbg()" class="body_background">
 
 	<center>
-
 		<h2 class="btn-primary">SUPERHERO</h2>
 
 		<div id="head_info" class="btn-danger">
@@ -28,7 +27,9 @@
 		<h4>Want to see what I made? click on one of the buttons down!</h4><br>
 		<span><button onclick="openprew()" id="prew">Preview</button></span>
 		<span><button onclick="opendown()" id="down">Download</button></span>
-		<br><br><br><br><br>
+		<br><br>
+		<span><h4>Can't here the background music?</h4></span><span><a onclick="playbg()">Click Here!</a></span>
+		<br><br><br>
 
 	</center>
 	<script src="main.js"></script>
